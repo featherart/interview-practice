@@ -24,6 +24,11 @@ function getProductsOfAllIntsExceptAtIndex(input) {
   return results
 }
 
+let serializedNodes = 'asdfasdfasdf';
+let lastTwoCharacters = serializedNodes.substr(serializedNodes.length-2);
+let repeatition = serializedNodes.includes(lastTwoCharacters + nextCharacter);
+
+
 const nums = [1, 7, 3, 4]
 const answer = getProductsOfAllIntsExceptAtIndex(nums)
 console.log(answer)
