@@ -16,7 +16,7 @@ received, and some deliveries get cancelled before takeoff.
 // thoughts: finding one unique integer in an array - is there a data structure that makes finding dupes easier?
 // Set does not accept duplicates
 
-let deliveryIdConfirmations = [9, 8, 6, 45, 100, 34, 36, 29, 75, 50, 70, 9, 75, 8, 50, 45, 100, 34, 36, 29, 75, 6]
+let deliveryIdConfirmations = [9, 8, 6, 45, 100, 34, 36, 29, 75, 50, 70, 9, 75, 8, 50, 45, 100, 34, 36, 29, 6]
 
 function findMissingDrone(ids) {
   var idsToOccurrences = new Map()
